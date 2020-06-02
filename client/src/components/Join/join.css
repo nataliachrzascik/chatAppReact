@@ -1,0 +1,67 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+#fotoRight {
+  display: inline-block;
+  background-color: red;
+  height: 100vh;
+  width: 50%;
+  float: left;
+  background-image: url(../../icons/city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.joinOuterContainer {
+  display: inline-block;
+  height: 100vh;
+  width: 50%;
+  background-color: #a37165;
+}
+
+.joinInnerContainer {
+  width: 40%;
+  margin: auto;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: #93aaa7;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
